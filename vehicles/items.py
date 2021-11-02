@@ -6,7 +6,11 @@
 import scrapy
 
 
-class VehiclesItem(scrapy.Item):
+class VehicleItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    pass
+    name = scrapy.Field()
+    price = scrapy.Field()
+    vin_number = scrapy.Field()
+    vehicle_summary = scrapy.Field()
+    top_features_specs = scrapy.Field()

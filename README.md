@@ -42,14 +42,14 @@
 ## Running the Crawler
 * To Crawl:
     ```bash
-    $ scrapy crawl vehiclespider
+    $ scrapy crawl vehicle_spider
     ```
 
 * Crawl and Out put to json file
     ```bash
-    $ scrapy crawl vehiclespider -O data/vehicles.json
+    $ scrapy crawl vehicle_spider -O data/vehicles.json
     ```
 * Crawl with a radius
     ```bash
-    $ scrapy crawl vehiclespider -a radius=10
+    $ scrapy crawl vehicle_spider -a radius=10
     ```
