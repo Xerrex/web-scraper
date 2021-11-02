@@ -1,0 +1,20 @@
+Scrape https://www.edmunds.com/cars-for-sale-by-owner/ :all the Cars and their Details 
+
+The script should be written in a way that user can input a 
+zipcode which will be entered here. You may use Selenium to 
+accomplish this.
+
+user should also be allowed to input the radius which will be set here.
+
+After going into each of the results that show up, the items 
+shown in the screenshots above should be scrapped. The list of 
+attributes to be scrapped is given below for your reference:
+1. Name
+2. Price
+3. VIN Number
+4. Vehicle Summary
+5. Top Features & Specs
+
+The output of the web scrapper should be fed into 
+an Excel Workbook (.xlsx file) where each of these 
+attributes are written in separate columns. 
