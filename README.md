@@ -13,7 +13,11 @@
 
 
 ## Project Setup
-* Unzip the Project into desired location with tool of choice.
+* Git clone or download and unzip file
+    * To clone via terminal 
+    ```bash
+    $ git clone https://github.com/Xerrex/web-scraper.git
+    ```
 * Open terminal in the Uncompressed Folder
     ```bash
     & cd web-scrapper
