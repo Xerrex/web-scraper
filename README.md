@@ -13,4 +13,43 @@
 
 
 ## Project Setup
+* Unzip the Project into desired location with tool of choice.
+* Open terminal in the Uncompressed Folder
+    ```bash
+    & cd web-scrapper
+    ```
+
+* Create Virtual Environment & Activate it.
+    ```bash
+    $ python3 -m venv venv
+    $ source venv/bin/activate
+    ```
+    * for window use:
+        ```bash
+        $ py -m venv env
+        $ .\env\Scripts\activate
+        ```
+
+* Install the dependancies
+    ```bash
+    pip install -r requirements.txt
+    ```
+    * for windows
+    ```bash
+    py -m pip install -r requirements.txt
+    ```
+
 ## Running the Crawler
+* To Crawl:
+    ```bash
+    $ scrapy crawl vehiclespider
+    ```
+
+* Crawl and Out put to json file
+    ```bash
+    $ scrapy crawl vehiclespider -O data/vehicles.json
+    ```
+* Crawl with a radius
+    ```bash
+    $ scrapy crawl vehiclespider -a radius=10
+    ```
